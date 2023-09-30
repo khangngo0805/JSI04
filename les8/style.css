@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product-list{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding: 50px 200px;
+
+}
+.product-items{
+    height: 400px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+.product-image{
+    height: 300px;
+    width: 200px;
+}
+.product-items span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
